@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles</title>
+</head>
+<body>
+    <h1>Articles list</h1>
+    <div class="dog">
+        {% for dog in dog %}
+        <div class="dog">
+            <h2><a href="#">{{ dog.title }}</a></h2>
+            <p>{{ dog.body }}</p>
+            <p>{{ dog.date }}</p>
+
+        </div>
+
+        {% endfor %}
+    </div>
+</body>
+</html>
