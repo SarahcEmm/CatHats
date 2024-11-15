@@ -1,0 +1,18 @@
+body {
+    background: red;
+    color: white;
+}
+h1, h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+img {
+    width: 20%;
+    height: 20%;
+}
+p {
+    color: white;
+}
+form {
+    color: white;
+}
